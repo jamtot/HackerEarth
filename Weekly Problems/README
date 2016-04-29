@@ -1,0 +1,33 @@
+https://www.hackerearth.com/problem/algorithm/absolute-difference-2/?utm_campaign=user-activity-email&utm_medium=email&utm_source=user-recommend-problem
+
+Absolute Difference
+
+You are given an array of integers and you need to find out if the absolute difference of values of any two consecutive array integers is at-most D.
+
+Input:
+First line of input contains an integer T, denoting the number of test cases. You have to give your output for every test case. 
+Every test case contains the size of the array(N), the absolute value difference that you have to check for (D) and the values of the array itself.
+First line of each test case contains two integers N and D, denoting the size of the array and value of D respectively.
+Second line of each test case contains N integers, which are separated by one space and are the integers for the array.
+
+Output:
+For each test case, print YES if the absolute difference between any two consecutive integer is at-most D, otherwise print NO.
+
+Constraints:
+There will not be more than 1000 test cases. Size of the array will also not be greater than 1000 and value of D will be between 1 and 100. The integer values in the array will be between 1 and 106
+
+1 <= T <= 103
+1 <= N <= 103
+1 <= D <= 100
+1 <= Elements of the array <= 106
+
+SAMPLE INPUT 
+2
+4 2
+1 2 4 3
+2 4
+1 7
+
+SAMPLE OUTPUT 
+YES
+NO
