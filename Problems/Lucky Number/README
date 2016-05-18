@@ -1,0 +1,23 @@
+https://www.hackerearth.com/problem/algorithm/lucky-number/
+
+Lucky Number
+
+Alice likes digits very much. She thinks some digits are lucky digits. She also calls numbers consisting ALL the lucky digits at least once as lucky numbers. Please note that the lucky number should contain no digits other than lucky digits, but the lucky digits can appear any number of times in the lucky number.
+
+Now your task is given a positive number x and a list of lucky digits, find the least positive multiple of x which is a lucky number.
+
+Input
+
+The first line of the input is an integer N, the number of test cases. N is not larger than 100. Each test case contains 2 lines.
+
+The first line of each test case is the list of lucky digits.It contains no more than 10 different digits.
+
+The second line of each test cases is the number x. x is not larger than 999.
+
+Output
+
+For each test case if you can find the answer y, please output something like "y = x * n" in a single line. Otherwise output "Impossible" in a single line. See the sample for more detailed information.
+
+Explanation for Sample Input/Output
+
+22 = 11 * 2 is not valid solution for test case as 22 is not a lucky number. A lucky number should contain all the lucky digits. Hence, 2233 is a lucky number while 22 is not.
