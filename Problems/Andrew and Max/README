@@ -1,0 +1,31 @@
+https://www.hackerearth.com/problem/algorithm/andrew-and-max/
+
+Andrew and Max
+
+Max has a rectangular prism with dimensions A, B, and C. He writes A, B, and C on piece of paper. When he is not looking, Andrew replaces these numbers with X=A+B, Y=B+C, and Z=A+C. Now, Max sees three numbers X, Y, Z on the piece of paper. But Max needs help computing the surface area of this rectangular prism. Help him!
+
+Input
+
+First line contains T - number of test cases.
+
+Each of next T lines contains 3 integers, X, Y, Z, in that order. It is guaranteed that numbers X, Y, Z are accurate and A, B, C form dimensions of a prism.
+
+Output
+
+Output surface area of each original prism in a new line. Round your answer to 2 decimal places.
+
+Constraints
+
+T <= 10
+
+2 <= X, Y, Z <= 10^7
+
+SAMPLE INPUT 
+2
+3 4 5
+2 2 2
+SAMPLE OUTPUT 
+22.00
+6.00
+Explanation
+The first test case is a prism with sides 1, 2, 3. The second test case is a cube of side 1. The surface area of the first prism is then 1x2+2x3+1x3+1x2+2x3+1x3=22, and the surface area of the 2nd prism is 6.
