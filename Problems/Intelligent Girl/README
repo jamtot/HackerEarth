@@ -1,0 +1,119 @@
+https://www.hackerearth.com/problem/algorithm/intelligent-girl-1/
+
+Intelligent Girl
+
+Soumika has a string 
+S
+S and its starting index is 
+1
+1. The string 
+S
+S consists of characters from 
+1
+−
+9
+1−9. As she is very intelligent, she wants to test his brother Vinay Tendulkar. She asked her brother Vinay Tendulkar to count the number of even numbered characters ( i.e 
+2
+,
+4
+,
+6
+,
+8
+2,4,6,8 ) for every index 
+i
+i 
+(
+1
+≤
+i
+≤
+|
+S
+|
+)
+(1≤i≤|S|). For an index 
+i
+i, the result should be calculated from 
+i
+i to the end of the string. As Vinay doesn't know about programming, he wants you to help him find the solution.
+
+Input:
+First line contains a string 
+S
+S.
+
+Output:
+Print |
+S
+S| space-separated integers,the result of every index.
+
+Constraints:
+ 1
+1 ≤ |
+S
+S| ≤ 
+10
+10
+4
+4
+
+SAMPLE INPUT 
+574674546476
+SAMPLE OUTPUT 
+7 7 7 6 5 5 4 4 3 2 1 1
+Explanation
+Given string 
+S
+S is 
+574674546476
+574674546476.
+for index 
+1
+1
+Number of even numbers from 
+5
+5 to end of the string is 
+7
+7 so the result of index 
+1
+1 is 
+7
+7.
+for index 
+2
+2
+Number of even numbers from 
+7
+7 to end of the string is 
+7
+7 so the result of index 
+2
+2 is 
+7
+7.
+for index 
+3
+3
+Number of even numbers from 
+4
+4 to end of the string is 
+7
+7 so the result of index 
+3
+3 is 
+7
+7.
+for index 
+3
+3
+Number of even numbers from 6 to end of the string is 
+6
+6 so the result of index 
+4
+4 is 
+6
+6.....
+.
+.
+.
