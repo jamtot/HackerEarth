@@ -1,0 +1,153 @@
+https://www.hackerearth.com/problem/algorithm/benny-and-her-school-reports/
+
+Benny And Her School Reports
+
+Benny is a little pig. She usually goes to school, but the summer is coming which is also the time of getting the grade card report of all the 
+N
+N + 
+1
+1 subjects.
+
+Benny has a 
+M
+M grade point system. Hence, all the scores for any subject are not less than 
+1
+1 and not greater than 
+M
+M.
+
+During this year of education, Benny got 
+N
+N scores for each of the 
+N
+N subjects. The score for a subject 
+i
+i is denoted by 
+A
+A
+i
+i.
+
+Recently, her father promised that if her average score for all 
+(
+N
++
+1
+)
+(N+1) subjects is not less that 
+X
+X, then he will buy the new 
+i
+T
+o
+n
+e
+7
+iTone7 for her.
+
+Only one thing remained.
+
+Benny wants to know what is the minimal possible score that she can get in the last remaining subject i.e., 
+(
+N
++
+1
+)
+(N+1)
+t
+h
+th subject in order to receive the new 
+i
+T
+o
+n
+e
+7
+iTone7? Of course, it might be impossible.
+
+Input
+
+The input consists of several test cases.
+
+The first line contains integer 
+T
+T denoting the number of test cases.
+
+Each test case consists of two lines. The first line contains three space separated integers 
+N
+N, 
+M
+M and 
+X
+X. And the next line contains 
+N
+N integers denoting the 
+A
+A
+i
+i.
+
+Output
+
+For each test case, output minimal possible score needed in the last subject or print "Impossible" (without quotes) if Benny has no chances to receive new 
+i
+T
+o
+n
+e
+7.
+iTone7.
+Constraints
+
+1
+1 ≤ 
+T
+T, 
+N
+N ≤ 
+10
+5
+105
+1
+1 ≤ 
+M
+M ≤ 
+10
+9
+109
+1
+1 ≤ 
+A
+A
+i
+i ≤ 
+M
+M
+Note
+It's guaranteed that the sum of 
+N
+N over all test cases won't exceed 105.
+
+SAMPLE INPUT 
+4
+1 2 2
+1
+6 10 4
+5 4 7 8 4 1 
+1 4 3
+2 
+1 6 2
+5 
+SAMPLE OUTPUT 
+Impossible
+1
+4
+1
+Explanation
+In the first sample test case, even if she manages to get 
+M
+M marks in the last subject, still the mean would not reach upto 
+X
+X
+In the second sample test case, if she manages to get only a mark in the last subject, her mean will be atleast 
+X
