@@ -1,7 +1,6 @@
 def needed(args):
     N,M,X=args[0],args[1],args[2]
     A=map(int,raw_input().split())
-    #avg=sum(A)/float(N)
     avg=0
     for i in xrange(N):
         avg+=A[i]
