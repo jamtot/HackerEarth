@@ -1,0 +1,34 @@
+https://www.hackerearth.com/problem/golf/minimal-combinatorial/
+
+Minimal Combinatorial
+
+Given two integers - n and r, your task is to calculate the combinatorial nCr. 
+nCr = n! / r! (n-r)! 
+The caveat is that you have to write code to do this calculation in minimum number of characters. 
+
+UPDATE: The testcases for this problem have been fixed. Please try submitting your solution again.
+
+Input 
+The first line will be number of testcases T. Then T lines follow, each containing two positive integers - n and r. 
+
+output 
+Print T lines, each line containing the value of nCr. 
+
+Constraints 
+1 <= T <= 100 
+1 <= r <= n <= 1000 
+
+You can assume that the value nCr will fit into a signed 64 bit integer. 
+
+Scoring 
+If your program passes all the testcases, the score will be assigned according to the following formula:
+num_chars = length of source code
+Score = (1000 - num_chars) / 10 
+
+You can understand that you have to reach as close to 100 as possible. Have fun :)
+SAMPLE INPUT 
+1
+100 10
+SAMPLE OUTPUT 
+17310309456440
+
