@@ -1,0 +1,49 @@
+https://www.hackerearth.com/problem/algorithm/find-the-ring/
+
+Find The Ring
+
+There is a new magician in town. His trick is known as "Find the Ring".
+
+He puts 3 glasses at 3 spots on the table, labeling them as 0, 1 and 2. Now, he hides a ring under one of the glasses. The glasses are opaque and placed upside down, so that the ring is not visible to the audience.
+
+Now, he begins to make certain swaps in between adjacent glasses, i.e. the glass at position 0 can be swapped with that at position 1, and the glass at position 2 can be swapped with glass at 1.
+
+Assuming that all swaps are done randomly with equal probability of 50%, you have to find index of the glass that is most likely to have the ring, at the end. In case of a tie, choose the one with lower index.
+
+Assume that the glass containing the ring was swapped exactly N times.
+
+Input:
+
+The first line contains an integer T, denoting the number of test cases. Each of the following T lines contain two space separated integers, index and N. index is index of glass that initially contains the ring and N is the total number of swaps involving the glass with ring.
+
+Output:
+
+For, each of the T test cases, output the corresponding answer in a new line.
+
+Constraints:
+
+1 <= T <= 100
+0 <= index <= 2
+0 <= N <= 10000
+
+SAMPLE INPUT 
+3
+1 1
+0 1
+2 2
+SAMPLE OUTPUT 
+0
+1
+0
+Explanation
+Case 1:
+
+The ring is at index 1. There is only one swap to be made. The probability of ring ending up at 0 is .5, at 1 is 0 and at 2 is also .5 So, we have a tie between positions 0 and 2. We must choose the lower index, i.e. 0
+
+Case 2:
+
+The ring is at index 0. There is only one swap to be made. There is also only one choice. The probability of ring ending up at 0 is 0, at 1 is 1 and at 2 is 0. The maximum probability occurs at index 1.
+
+Case 3:
+
+The ring is situated at index 2. There are 2 swaps to be made. So, we can make following swaps: {2 -> 1 -> 0} or {2 -> 1 -> 2} Hence, the probability of ring ending up at 0 is .5, at 1 is 0 and at 2 is .5 Again, there is a tie between 0 and 2, and we choose 0, i.e. the lower index.
