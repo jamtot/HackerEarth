@@ -1,5 +1,5 @@
 def getminsum(a,b,c,N):
-    A,B=[],[]
+    #A,B=[],[]
     #A.append((a*c)%1000000007)
     #B.append((b*c)%1000000007)
     MODVAL=1000000007
