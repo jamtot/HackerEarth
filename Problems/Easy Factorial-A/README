@@ -1,0 +1,19 @@
+https://www.hackerearth.com/problem/algorithm/easy-factorial-a-1/
+
+Easy Factorial-A
+
+Sorry folks,, admin has no time to create a story for this problem...
+
+You have two integers n and m and you have to print value of factorial(n)%m.
+
+OUTPUT a single integer containing answer of problem.
+
+Input 23 14567
+
+NOTE You do not need to create a program for this problem you have to write your answers of given input in given code snippet
+
+To see how to submit solution please check this link
+SAMPLE INPUT 
+5 11
+SAMPLE OUTPUT 
+10
