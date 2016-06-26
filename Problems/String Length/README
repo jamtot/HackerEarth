@@ -1,0 +1,23 @@
+https://www.hackerearth.com/problem/algorithm/string-length-117/
+
+String length
+
+Given a string, find the length of string.
+
+Input Format:
+First line contains single integer t, the number of test-cases. Each of next t lines contains a string of lower case alphabets.
+
+Output Format:
+Output t lines, each containing the single integer, length of corresponding string.
+
+Constraints:
+1 ≤ t ≤ 100
+1 ≤ length of string ≤ 100
+
+SAMPLE INPUT 
+2
+hello
+heckerearth
+SAMPLE OUTPUT 
+5
+11
