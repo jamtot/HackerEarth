@@ -1,0 +1,42 @@
+https://www.hackerearth.com/problem/algorithm/one-way-or-another-juneclash-3/
+
+One Way Or Another
+
+Stefan is stuck in Marty's body and in order to fix him, Valerie has encountered a problem with dead witches spirits.
+
+In order to allow her to do such magic, the witches gave her a huge grid (1018 by 1018, rows numbered from 1 to 1018, from top to bottom and columns from left to right), some cells containing a non-negative integer and others are empty. They want to know if they can fill the empty cells, each with a non-negative integer such that after that, each two neighboring cells (sharing a side) have values with different parities.
+
+Valerie is not a math pro (but very powerful witch), so she asked for your help.
+
+Input
+
+The first line of input, contains a single integer T, the number of scenarios (1 ≤ T ≤ 10). The next T blocks of lines, each contains one scenario.
+
+For each scenario: The first line contains integer n, the number of non-empty cells (1 ≤ n ≤ 10000). The next n lines contain their information. Each of them contains three integers r, c and x meaning the cell in c-th column of r-th row contains value x (1 ≤ r, c, x ≤ 1018). It's guaranteed that all these cells are distinct.
+
+Output
+
+For each scenario, print "Yes" if it's possible to fill the empty cells and "No" otherwise, in one line (without quotes).
+
+SAMPLE INPUT 
+3
+2
+5 4 2
+1 5 2
+5
+1 4 4
+3 1 2
+1 2 5
+3 3 3
+1 1 1
+5
+1 4 1
+4 1 1
+5 2 5
+2 5 3
+5 3 4
+SAMPLE OUTPUT 
+No
+No
+Yes
+
