@@ -1,0 +1,110 @@
+https://www.hackerearth.com/problem/algorithm/average-sequence-4/
+
+Average sequence
+
+Today Oz is playing with two lists 
+A
+A and 
+B
+B. List 
+A
+A contains 
+N
+N elements. List 
+B
+B is formed by replacing every element of List 
+A
+A by average value of all elements before current element including current one. For example :
+If list 
+A
+A is like : 
+a
+,
+b
+,
+c
+a,b,c then 
+list 
+B
+B will be like : 
+a
+1
+,
+a
++
+b
+2
+,
+a
++
+b
++
+c
+3
+a1,a+b2,a+b+c3
+Now you are given list 
+B
+B and you have to find list 
+A
+A. So help Oz with this task.
+
+Input :
+First line contain an integer 
+N
+N - size of list 
+B
+B
+Second line contains 
+N
+N space separated integers - elements of list 
+B
+B
+
+Output :
+Output 
+N
+N space separated integers - elements of list 
+A
+A
+Test data is such that list 
+A
+A elements are always integers.
+
+Constraints :
+ 1
+≤
+N
+≤
+100
+1≤N≤100
+ 1
+≤
+v
+a
+l
+u
+e
+o
+f
+e
+a
+c
+h
+e
+l
+e
+m
+e
+n
+t
+≤
+10
+1≤valueofeachelement≤10 
+9
+9 
+
+SAMPLE INPUT 
+4
+3 2 3 5
+SAMPLE OUTPUT 
+3 1 5 11
