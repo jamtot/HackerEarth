@@ -8,9 +8,6 @@ def caninvite(costs,money,peeps):
                 break
     else: return "NO"
 
-def linearinvite(costs,money,peeps):
-    pass
-
 if __name__ == "__main__":
     for tc in xrange(int(raw_input())):
         N,X = map(int,raw_input().split())
