@@ -1,4 +1,5 @@
 def XORs(alen,array):
+    #incorrect, and too slow
     """xors=0
     donedex=[]
     for i in xrange(alen):
@@ -8,10 +9,11 @@ def XORs(alen,array):
                     donedex.append((i,j))
                     donedex.append((j,i))
                     xors+=1"""
+    #correct, but too slow
+    #return sum([1 if (array[i]^array[j])%2==1 else 0 for i in xrange(alen) for j in xrange(i+1, alen)])
     evens = sum([1 if i%2==0 else 0 for i in array])
     return evens*(alen-evens)
-    #too slow
-    #return sum([1 if (array[i]^array[j])%2==1 else 0 for i in xrange(alen) for j in xrange(i+1, alen)])
+
     
 
 if __name__ == "__main__":
