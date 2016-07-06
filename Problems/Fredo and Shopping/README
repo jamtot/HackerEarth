@@ -1,0 +1,56 @@
+https://www.hackerearth.com/problem/algorithm/fredo-and-shopping/
+
+Fredo and Shopping
+
+Today, Fredo went for shopping. There are 
+N
+N shops in the market. Each shop has its number. The shop numbers are in random order and two shops can have the same number. He is standing at some ith shop.Now, he decides to visit only those shops which are left to the this ith shop and whose shop number is less than the shop number of ith shop(
+1
+≤
+i
+≤
+N
+1≤i≤N). Tell him how many shops he can visit if he stands at some ith shop.
+
+Input Format:
+
+First line consists of an integer 
+N
+N denoting the number of shops in the market and next line contains 
+N
+N space separated integers denoting the shop numbers.
+
+Output Format:
+
+Print the answer asked for each i (
+1
+≤
+i
+≤
+N
+1≤i≤N).Print the values space separated.
+
+Constraints:
+ 1
+≤
+N
+≤
+1000000
+1≤N≤1000000
+ 1
+≤
+S
+[
+i
+]
+≤
+10
+9
+1≤S[i]≤109
+S[i] is the shop number of ith shop.
+
+SAMPLE INPUT 
+5
+5 1 2 2 14
+SAMPLE OUTPUT 
+0 0 1 1 4
