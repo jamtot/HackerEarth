@@ -1,0 +1,22 @@
+https://www.hackerearth.com/problem/algorithm/ascii-value/
+
+ASCII Value
+
+Given a character 
+C
+C, print the ASCII value of that character.
+
+Input:
+First and only line in input contains a character 
+C
+C.
+
+Output:
+Print the ASCII value of the character 
+C
+C.
+
+Constraints:
+ C
+∈
+C∈ ASCII characters
