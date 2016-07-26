@@ -1,0 +1,27 @@
+https://www.hackerearth.com/problem/algorithm/zrzr/
+
+ZrZr
+
+Link to Russian translation the problem
+
+You are given a number N. How many zeroes does N! end on?
+
+Input
+The first line contains one integer T - number of test cases. The following T lines contain one integer each - N.
+
+Output
+For each test case output one integer per line - the answer for this question.
+
+Constraints
+
+T <= 1000
+0 <= N <= 1011
+SAMPLE INPUT 
+3
+9
+11
+20
+SAMPLE OUTPUT 
+1
+2
+4
