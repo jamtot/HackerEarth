@@ -1,0 +1,86 @@
+https://www.hackerearth.com/problem/algorithm/death-the-multiverse-and-nothing/
+
+Death, the Multiverse and Nothing
+
+
+You'll be given an array 
+A
+A of 
+N
+N integers as input. For each element of the array 
+A
+[
+i
+]
+A[i], print 
+A
+[
+i
+]
+−
+1
+A[i]−1.
+
+Input:
+There will be 
+N
++
+1
+N+1 iines of input each consisting of a single integer.
+Integer in first line denotes 
+N
+N
+For the following 
+N
+N lines the integer in 
+i
+t
+h
+ith line denotes the integer 
+A
+[
+i
+−
+1
+]
+A[i−1]
+
+Output:
+For each element of the array 
+A
+[
+i
+]
+A[i], print 
+A
+[
+i
+]
+−
+1
+A[i]−1 in a new line.
+
+Constraints:
+ 1
+≤
+N
+≤
+10
+1≤N≤10
+ 1
+≤
+A
+[
+i
+]
+≤
+10
+1≤A[i]≤10
+
+SAMPLE INPUT 
+2
+2
+6
+SAMPLE OUTPUT 
+1
+5
