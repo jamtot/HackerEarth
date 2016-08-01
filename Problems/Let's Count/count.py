@@ -21,14 +21,19 @@ def threegcd(a,b,c):
     return gcd(gcd(a,b),c)
 
 if __name__ == "__main__":
+    facdict={}
     for tc in xrange(int(raw_input())):
         a,b,c = map(int,raw_input().split())
         jeeseedee=threegcd(a,b,c)
-        i=0
-        factors=0
-        while i<=jeeseedee/2:
-            i+=1
-            if jeeseedee%i==0:
-                factors+=1
-            
-        print factors
+        i=1
+        factors=1
+        if jeeseedee not in facdict:
+            while i<=jeeseedee/2:
+                if jeeseedee%i==0:
+                    factors+=1
+                    facdict[jeeseedee]=factors
+                i+=1
+            print factors
+            facdict[jeeseedee]=factors
+        else:
+            print facdict[jeeseedee]
