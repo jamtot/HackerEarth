@@ -4,7 +4,6 @@ def palicount(string):
     for i in xrange(slen):
         for j in xrange(i+1,slen+1):
             if pal(string[i:j]):
-                print string[i:j]
                 count+=1
     return count
     
