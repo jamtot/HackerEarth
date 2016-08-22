@@ -1,0 +1,33 @@
+https://www.hackerearth.com/problem/algorithm/e-simple-binary-problem/
+
+E. Simple Binary Problem
+
+This is the simplest problem in whole contest, pretty straight forward!
+You have to find if the given two numbers sums up to form an even number. Just to add twist , numbers will be in their binary form.
+
+INPUT FORMAT :
+First line of input will contain an integer N, denoting number pair of inputs.
+Following N lines will contain two binary strings , A and B.
+
+OUTPUT FORMAT :
+Your output should contain N lines, each line containing "Yes" if numbers sums up to even otherwise "No" (without "").
+
+CONSTRAINTS :
+1= N = 102
+11= length of A and B = 104
+
+SAMPLE INPUT 
+2
+101 100
+100 000
+SAMPLE OUTPUT 
+No
+Yes
+Explanation
+testcase 1 : 101 = 1x22 + 1x22 + 1x20 = 5
+
+similarly, 100 = 1x22 + 1x22 + 1x22 = 4
+
+5+4=9 which is odd. Hence No
+
+Same applies for sample testcase 2.
